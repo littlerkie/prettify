@@ -1,0 +1,28 @@
+{
+  "name": "prettify",
+  "description": "The BEM scss library.",
+  "version": "1.0.0",
+  "version_short": "5.0",
+  "keywords": [
+    "css",
+    "scss",
+    "responsive",
+    "front-end"
+  ],
+  "author": "The Prettify Authors",
+  "scripts": {
+    "scss": "sass --watch scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlerkie/prettify.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littlerkie/prettify/issues"
+  },
+  "homepage": "https://github.com/littlerkie/prettify#readme",
+  "devDependencies": {
+    "sass": "^1.27.0"
+  }
+}
