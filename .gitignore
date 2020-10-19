@@ -1,19 +1,3 @@
-# Ignore docs files
-/_gh_pages/
-# This is the old Jekyll docs dist folder;
-# keeping it here so that when we switch branches it doesn't show up
-/site/docs/**/dist/
-# Jekyll's cache folder; keeping it for the same reason as above
-/site/.jekyll-cache/
-# Hugo resources folder
-/resources/
-
-# Ignore ruby/bundler files;
-# keeping them here so that when we switch branches they don't show up
-/.bundle/
-/vendor/
-/.ruby-version
-
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -39,14 +23,12 @@
 *.sublime-workspace
 nbproject
 Thumbs.db
-/.vscode/
+.vscode/
 # Local Netlify folder
 .netlify
 
-# Komodo
-.komodotools
-*.komodoproject
-
 # Folders to ignore
-/js/coverage/
-/node_modules/
+node_modules/
+
+# Dependency lock
+package-lock.json
