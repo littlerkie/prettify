@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/littlerkie/prettify#readme",
   "devDependencies": {
-    "sass": "^1.27.0"
+    "sass": "^1.34.0"
   }
 }
